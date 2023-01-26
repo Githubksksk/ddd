@@ -71,7 +71,7 @@ client.on('message', async message => {
   .setColor("#3498db")
   .setDescription(`
 
-  **❌ Hey Uptime Edeceğim URL Girmelisin! **
+  **❌ Hey Up Edeceğim URL Girmelisin! **
 
 > +ekle (Glitch Live Linki)
   `)
@@ -91,7 +91,7 @@ client.on('message', async message => {
   
 <a:YklenmeGif:1039285627897774081> ** Şuanda  \`${db.get('Proje')}\` URL'yi 7/24 Aktif Tutuyor. **
 
-<a:YklenmeGif:1039285627897774081> **  Bu Linklerden Sadece \`${db.fetch(`Sahiplik_${message.author.id}`) || null}\` Tane Senin URl'ni Uptime ediyor!**
+<a:YklenmeGif:1039285627897774081> **  Bu Linklerden Sadece \`${db.fetch(`Sahiplik_${message.author.id}`) || null}\` Tane Senin URl'ni Up ediyor!**
 `)
   message.channel.send(say)
   }
@@ -106,8 +106,8 @@ client.on('message', async message => {
 
 
 `)
-  .addField('** Uptime **',`
-- **+ekle (glitch live linki)** = Botunuzu 7/24 Aktif Tutar.
+  .addField('** Up **',`
+- **+ekle (live linki)** = Botunuzu 7/24 Aktif Tutar.
 - **+linkler** = 7/24 Tuttuğum linklerini gösterir.
 - **+say** = Tüm Uptime edilmiş bot sayısını gösterir.
 `)
